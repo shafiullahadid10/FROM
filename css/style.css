@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+.weapper{
+	width: 100%;
+	height: auto;
+	padding: 110px 0px;
+	background: linear-gradient(to top,#DBF227,#FFFFFF);
+}
+.from-box{
+	width: 1100px;
+	margin: auto;
+	background: #012030;
+	border-radius: 10px;
+	
+}
+.from-row{
+	display: flex;
+}
+.from-left{
+	flex-basis: 63%;
+}
+
+.from-right{
+	flex-basis: 37%;
+}
+.right-content{
+	padding: 40px 40px;
+
+}
+.right-content h2{
+	text-transform: capitalize;
+	font-weight: 700;
+	color: white;
+	text-align: left;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.form-group{
+	color: white;
+}
+.form-group{
+	margin: 16px 0;
+}
+.form-control{
+	padding: 8px 12px;
+    border-radius: 8px;
+    width: 90%;
+}
+.form-control:focus{
+	outline-color: yellow;
+}
+.form-control:focus::placeholder{
+	 color: black;
+
+}
+.my-2{
+	margin: 26px 0px;
+}
+.form-group span{
+	
+	margin-right: 18px;
+}
+.form-group label{
+	margin-right: 10px;
+}
+.m2{
+	padding: 8px 12px;
+    border-radius: 8px;
+    width: 100%;
+    margin: 8px 0px;
+    outline-color: yellow;
+
+}
+.btn1{
+	padding: 12px 16px;
+	border: none;
+	background-color: white;
+	color: black;
+	text-transform: uppercase;
+	border-radius: 4px ;
+	margin-right: 10px;
+	font-weight: 750;
+	font-size: 15px;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.btn2{
+	padding: 12px 16px;
+	border: none;
+	background-color: #8C1F28;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 4px ;
+	margin-right: 10px;
+	font-weight: 750;
+	font-size: 15px;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.btn1:hover{
+	background-color: #8C1F28;
+	color: white;
+}
+.btn2:hover{
+	background-color: white;
+	color: black;
+}
+.text-right{
+	text-align: right;
+}
